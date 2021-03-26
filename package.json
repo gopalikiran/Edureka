@@ -1,26 +1,21 @@
 {
-  "name": "applicationsusinges",
+  "name": "testingnodejs",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start.js",
-    "dev ": "nodemon start.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kiran",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.13.12",
-    "@babel/register": "^7.13.8",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "config": "^3.3.6",
     "express": "^4.17.1",
-    "mongodb": "^3.6.5",
-    "node-fetch": "^2.6.1",
-    "request": "^2.88.2",
-    "sexpress": "^0.7.76",
-    "validator": "^13.5.2"
-  },
-  "devDependencies": {},
-  "description": ""
+    "mocha": "^8.3.2",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0"
+  }
 }
